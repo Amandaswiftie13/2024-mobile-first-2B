@@ -2,13 +2,14 @@
 @import url("header.css");
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("banner.css");
+@import url("carrossel.css");
 @import url("card.css");
 
 :root {
-    --Vermelho: #e50914;
-    --Vermelhor-forte: #b81d24;
+    --Amarelo: #f0f009;
+    --Vermelho: #fa0b0beb;
     --Preto: #221f1f;
-    --branco: #f5f5f1;
+    --Azul: #0606fa;
     --texto-corpo:"Poetsen One", sans-serif;
     --texto-titulo:"Raleway", sans-serif;
 
