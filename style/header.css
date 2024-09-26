@@ -1,14 +1,14 @@
 .cabecalho__menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url(../img/Menu.png);
+    background-image: url(../img/Menu-hamburguer.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
 }
 
 .cabecalho{
-    background-color: var(--azul);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
     width: 60vw;
 }
 
-.caixa__botao:checked~.lista-menu{
+.caixa__botao:checked~.lista-menu {
     display: block;
 }
 
@@ -52,4 +52,42 @@
 }
 .caixa__botao{
     display: none;
+} 
+
+.caixa__titulo{
+    display: none;
 }
+
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-vidth: 1024px){
+    .caixa__titulo {
+        display: block;
+        font-family: var(--fonte-principal);
+        font-size: 30px;
+        font-weight: 400px;
+    }
+
+ .caixa__titulo--negrito {
+    font-weight: 700px;
+    color: var(--azul)
+}
+
+.opcoes{
+    display: flex;
+}
+
+.opcoes__item{
+    padding: 0% 1em;
+    text-transform: uppercase;
+}
+
+.opcoes__link{
+    text-decoration: none;
+    color: var(--preto)
+}
+
+}
+
